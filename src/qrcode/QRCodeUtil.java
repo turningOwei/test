@@ -247,6 +247,6 @@ public class QRCodeUtil {
 		 * QRCodeUtil.encode(text, "f:/MyWorkDoc/my180.jpg", "f:/MyWorkDoc",
 		 * true, 90);
 		 */
-
+		System.out.println();
 	}
 }
