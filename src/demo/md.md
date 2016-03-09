@@ -5,6 +5,7 @@ Markdown 允许 HTML 语法，所以使用者如果需要可以直接用 HTML来
 Markdown最初由Gruber应用在Perl语言中，但它已经有多种编程语言应用了。
 它是开源项目，并以BSD-style许可证的许可方式以插件形式或内容管理系统形式发布。
 
+*http://blog.sina.com.cn/s/blog_4ddef8f80102v19t.html*
 
 md是Markdown的缩写，md是一种易读易写的文本格式（easy-to-read, easy-to-write plain text format），并且可以很方便的转换成HTML格式显示在网页中。 以后项目的readme就可以用md格式编写了，下面列出了md格式的基本语法。
 
