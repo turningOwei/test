@@ -33,7 +33,9 @@
 		return zip;
 	}
 	
-	
+#业务层主要根据list中的实体对象的信息-即二维码信息生成zip文件。而zip是临时文件,bufferedImage-->临时文件写入zip#
+#想通过file流写入zipoutputstream,貌似不行,前台下载后只能得到zip文件,其中的图片文件大小始终为0 kb,解决方案 图片设置为临时文件,写入zip临时文件,最好删除临时文件#
+#参考QRCodeManagerController.java.md,没搞清楚删除zip文件为何在service层不能删除,最好想到那程序运行完再删除好了,在controller的try...catch...finally的finally删除#
 IOUtils
 public class IOUtils {
 	public static ZipOutputStream zipFile(File file, String fileName,
