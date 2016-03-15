@@ -37,3 +37,12 @@
 		}
 		return getStatusInfo(statusInfoEntity, codeType);
 	}
+	
+	private void downloadFile(ServletOutputStream output, File file)
+			throws IOException {
+		InputStream fis = new BufferedInputStream(new FileInputStream(file));
+		byte[] buffer = new byte[fis.available()];
+		fis.read(buffer);
+		fis.close();
+		output.write(buffer);
+	}
