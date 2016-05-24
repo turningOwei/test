@@ -22,7 +22,7 @@ public class Stack {
 			throw new EmptyStackException();
 		}
 		Object result = elements[--size];
-		elements[--size] = null;//eliminate obsolete reference
+		elements[size] = null;//eliminate obsolete reference
 		return result;
 	}
 
@@ -30,4 +30,5 @@ public class Stack {
 		if(elements.length == size)
 			elements = Arrays.copyOf(elements, 2*size+1);
 	}
+	
 }
