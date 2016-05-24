@@ -11,9 +11,6 @@ package designPattern.builder;
 //
 //
 
-
-
-
 public class Builder {
 	public void BuildPart() {
 	
