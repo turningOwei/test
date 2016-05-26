@@ -1,2 +1,5 @@
 12.线程之间如何通信？
 当线程是可以共享资源时,线程间通信时协调它们的重要手段。Object类中wait() notifyAll() notify()可以用于线程间通信关于资源的锁的状态。
+
+参考以下博客:未验证
+http://www.cnblogs.com/mengdd/archive/2013/02/20/2917956.html
