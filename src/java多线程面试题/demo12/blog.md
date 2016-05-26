@@ -1,0 +1,1 @@
+http://www.journaldev.com/1037/java-thread-wait-notify-and-notifyall-example
