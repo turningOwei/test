@@ -30,7 +30,6 @@ public class DesUtil1 {
 		System.out.println("密钥：" + key);
 		System.out.println("加密后:" + enstr);
 		System.err.println(decrypt(enstr, key));
-
 	}
 
 	/**
