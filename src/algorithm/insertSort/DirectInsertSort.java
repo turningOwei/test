@@ -14,6 +14,7 @@ public class DirectInsertSort {
 				if (a < b) {// b之后的往后移
 					arr[j + 1] = arr[j];
 				} else {
+					// 排序排好 比最大值大,跳出循环
 					break;
 				}
 			}
@@ -24,7 +25,7 @@ public class DirectInsertSort {
 	}
 
 	public static void main(String[] args) {
-		Integer[] arr = { 3, 2 };
+		Integer[] arr = { 3, 2, 5, 8, 1, 0 };
 		Integer[] re = DirectInsertSort.insertSort(arr);
 		System.out.println(Arrays.asList(re));
 	}
