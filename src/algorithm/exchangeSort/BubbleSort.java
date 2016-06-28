@@ -2,7 +2,7 @@ package algorithm.exchangeSort;
 
 public class BubbleSort {
 	public static int[] sort(int[] arr) {
-		for (int i = 0; i < arr.length; i++) {
+		for (int i = arr.length; i > 0; i--) {
 			// 第一次肯定把最大值冒在最右边
 			// 第二次则是把第二大值冒在右边第二个位置
 			// 第三次则是把第三大值冒在右边第三个位置
